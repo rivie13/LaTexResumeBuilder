@@ -5,6 +5,11 @@
 % License : MIT
 %------------------------
 
+%----
+% Do not delete the following comment
+% use the command 'pdflatex resume.tex' to generate the resume.pdf when changed...
+%----
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -113,13 +118,40 @@
 
 %IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 %CHANGE THE BELOW INFO TO ANONYMIZE/DEANONYMIZE YOUR INFO
-
+%Anonymize before moving this to GitHub!!!
 \begin{center}
-    \textbf{\Huge \scshape Anonymous Person} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:youremail@provider.com}{\underline{youremailhere@provider.com}} $|$
-    \href{https://linkedin.com/in/yourlink}{\underline{linkedin.com/in/yourlink}} $|$
-    \href{https://github.com/yourlink}{\underline{github.com/yourlink}}
+    \textbf{\Huge \scshape Riviera Sperduto} \\ \vspace{1pt}
+    \small 267-340-6316 $|$ \href{mailto:riviera.t.sperduto13@gmail.com}{\underline{riviera.t.sperduto13@gmail.com}} $|$
+    \href{https://linkedin.com/in/riviera-sperduto-219a54203/}{\underline{linkedin.com/in/riviera-sperduto-219a54203/}} $|$
+    \href{https://github.com/rivie13}{\underline{github.com/rivie13}}
 \end{center}
+
+%SUMMARY-------------------------------------------------
+%\begin{center}
+%    \small Computer Science student with expertise in Python, Kotlin, Java, SQL, automation, cloud tools, and database management, skilled in developing efficient software and contributing to open-source projects.
+%\end{center}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Kotlin, Java, C/C++, C\#, SQL (MySQL \& Postgres), JavaScript, HTML/CSS, YAML, Lua, RedScript} \\
+     \textbf{Frameworks}{: Testim.io, Microsoft Active Directory} \\
+     \textbf{Developer Tools}{: Git/GitHub, Docker, Microsoft Azure, VS Code, Visual Studio, PyCharm, IntelliJ, MariaDB, Dependency Track, Microsoft Power Automate, Prisma, Ollama} \\
+     \textbf{Libraries}{: Qt Core, Pyside6, Meraki, GUIZero, React}
+    }}
+ \end{itemize}
+
+%--------------CERTIFICATIONS--------------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Microsoft}{: Azure Fundamentals}
+    }}
+ \end{itemize}
+
 
 
 %-----------EDUCATION-----------
@@ -127,10 +159,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Temple University}{Philadelphia, PA}
-      {Bachelor of Science in Computer Science}{Aug. 2023 -- May 2025}
-    \resumeSubheading
-      {Community College of Philadelphia}{Philadelphia, PA}
-      {Associates of Science in Mathematics}{Aug. 2021 -- May 2023}
+      {Bachelor of Science in Computer Science | 3.52 GPA}{Aug. 2023 -- May 2025}
+    %\resumeSubheading
+    %  {Community College of Philadelphia}{Philadelphia, PA}
+    %  {Associates of Science in Mathematics | 3.73 GPA}{Aug. 2021 -- May 2023}
   \resumeSubHeadingListEnd
 
 
@@ -142,7 +174,7 @@
       {Information Technology Intern}{September 2024 -- December 2024}
       {SNIPES USA}{Bensalem, PA}
       \resumeItemListStart
-        \resumeItem{Developed and tested Python programs, including tools to automate SDWAN updates and network traffic analysis, improving efficiency and generating organized reports.}
+        \resumeItem{Developed and tested Python tools to automate SDWAN updates and network traffic analysis, reducing desktop support ticket times by around 20 seconds and enabling more accurate traffic analysis and organized reporting.}
         \resumeItem{Fixed a critical test for the staging website to ensure functionality by identifying broken links across all pages.}
         \resumeItem{Shadowed a System Administrator to learn VM creation in Azure, Microsoft Active Directory, and other Azure tools.}
       \resumeItemListEnd
@@ -161,29 +193,28 @@
       {Student Worker/Intern}{October 2023 -- Present}
       {Temple University}{Philadelphia, PA}
       \resumeItemListStart
-        \resumeItem{Created and optimized programs to automate data verification processes, improving runtime efficiency and doubling productivity.}
+        \resumeItem{Designed and optimized programs to automate data verification, cutting runtime from over a minute to under 30 seconds per record and doubling productivity.}
         \resumeItem{Deciphered SQL files and documentation to help the team understand backend functionality and query operations.}
         \resumeItem{Designed and documented automation programs, enabling team members to recreate and implement them independently.}
     \resumeItemListEnd
 
-    \resumeSubheading
-      {Volunteer}{March 2020 -- Present}
-      {Whitemarsh Art Center}{Conshohocken, PA}
-      \resumeItemListStart
-        %\emph is italics
-        %\resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Aided with the transition to MailChimp by cleaning and uploading email lists and assigning customer
-tags/audiences.}
-        \resumeItem{Allowed the ability to specifically target specific groups for different advertisements}
-        \resumeItem{Manufactured memes for the purpose of advertising classes on their social media platforms}
-      \resumeItemListEnd
+
 
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
+
 \section{Projects}
     \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{CodeGrind} $|$ \emph{React/Node.js, HTML/CSS, Python, PostgreSQL, Prisma, Microsoft Azure}}{Jan 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{\href{https://codegrind.online/}{https://codegrind.online/}}
+            \resumeItem{Developed a platform that gamifies technical interview preparation, enhancing the traditional LeetCode practice experience.}
+            \resumeItem{Integrated an AI tutoring assistant that guides users on programming concepts without providing explicit answers.}
+            \resumeItem{Building AI-generated and community-contributed problem sets with plans to expand into a comprehensive learning platform.}
+          \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{BestNotes} $|$ \emph{Python, Qt Core, Pyside6}}{October 2024 -- December 2024}
           \resumeItemListStart
@@ -194,30 +225,10 @@ tags/audiences.}
       \resumeProjectHeading
           {\textbf{Projectile Launcher Rework} $|$ \emph{Lua, YAML, JSON, RedScript}}{December 2022 -- Present}
           \resumeItemListStart
-            \resumeItem{Created a mod for the hit video game Cyberpunk 2077 that has over 45k individual downloads}
+            \resumeItem{Created a mod for the hit video game Cyberpunk 2077 that has over 45k individual downloads.}
             \resumeItem{Modified game mechanics and developed new variants, attachments, and ammo for the projectile launcher using multiple programming languages.}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Books and More! Database} $|$ \emph{MySQL, MariaDB}}{March 2022 -- May 2022}
-          \resumeItemListStart
-            \resumeItem{Designed and implemented an RDBMS for "Books and More!" bookstore, managing inventory, customers, sales, and vendors with detailed data modeling and SQL scripts.}
-            \resumeItem{Developed custom triggers to bypass a MySQL bug, ensuring referential integrity and reliable audit tracking.}
-          \resumeItemListEnd
     \resumeSubHeadingListEnd
-
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Kotlin, Java, C/C++, SQL (MySQL \& Postgres), JavaScript, HTML/CSS, YAML, Lua, RedScript} \\
-     \textbf{Frameworks}{: Testim.io, Microsoft Active Directory} \\
-     \textbf{Developer Tools}{: Git/GitHub, Docker, Microsoft Azure, VS Code, Visual Studio, PyCharm, IntelliJ, MariaDB, Dependency Track, Microsoft Power Automate} \\
-     \textbf{Libraries}{: Qt Core, Pyside6, Meraki, GUIZero}
-    }}
- \end{itemize}
 
 
 %-------------------------------------------
